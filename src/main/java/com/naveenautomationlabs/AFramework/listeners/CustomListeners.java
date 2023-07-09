@@ -39,5 +39,11 @@ public class CustomListeners extends TestBase implements ITestListener {
 		  
 	  }
 
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }
