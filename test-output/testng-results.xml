@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T15:00:37 EDT" name="Suite" finished-at="2023-07-09T15:01:59 EDT" duration-ms="82035">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T15:00:37 EDT" name="Test" finished-at="2023-07-09T15:01:59 EDT" duration-ms="82035">
+      <class name="com.naveenautomationlabs.AFramework.tests.MyWishListTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@3ee37e5a]" started-at="2023-07-09T15:01:37 EDT" name="setUpLogger" finished-at="2023-07-09T15:01:37 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@3ee37e5a]" started-at="2023-07-09T15:01:37 EDT" name="setUp" finished-at="2023-07-09T15:01:41 EDT" duration-ms="4371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGettingCellElementFromTable()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@3ee37e5a]" started-at="2023-07-09T15:01:41 EDT" name="validateGettingCellElementFromTable" finished-at="2023-07-09T15:01:44 EDT" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGettingCellElementFromTable -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@3ee37e5a]" started-at="2023-07-09T15:01:44 EDT" name="setUp" finished-at="2023-07-09T15:01:49 EDT" duration-ms="5080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin()[pri:1, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@3ee37e5a]" started-at="2023-07-09T15:01:49 EDT" name="validateLogin" finished-at="2023-07-09T15:01:51 EDT" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.naveenautomationlabs.AFramework.tests.MyWishListTest -->
+      <class name="com.naveenautomationlabs.AFramework.tests.YourStoreTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:37 EDT" name="setUpLogger" finished-at="2023-07-09T15:00:37 EDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:37 EDT" name="setUp" finished-at="2023-07-09T15:00:43 EDT" duration-ms="5693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateClickingDisplayItemOnMainPageTakesToItemPage()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:43 EDT" name="validateClickingDisplayItemOnMainPageTakesToItemPage" finished-at="2023-07-09T15:00:46 EDT" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickingDisplayItemOnMainPageTakesToItemPage -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:46 EDT" name="quit" finished-at="2023-07-09T15:00:46 EDT" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:46 EDT" name="setUp" finished-at="2023-07-09T15:00:51 EDT" duration-ms="4297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDisplayImageIsMovingOnMainPage()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:51 EDT" name="validateDisplayImageIsMovingOnMainPage" finished-at="2023-07-09T15:00:54 EDT" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDisplayImageIsMovingOnMainPage -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:54 EDT" name="quit" finished-at="2023-07-09T15:00:54 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:54 EDT" name="setUp" finished-at="2023-07-09T15:00:59 EDT" duration-ms="4631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFooterDisplayImagesMoving()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:00:59 EDT" name="validateFooterDisplayImagesMoving" finished-at="2023-07-09T15:01:02 EDT" duration-ms="3465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterDisplayImagesMoving -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:02 EDT" name="quit" finished-at="2023-07-09T15:01:03 EDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:03 EDT" name="setUp" finished-at="2023-07-09T15:01:08 EDT" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginUsingValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:08 EDT" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-09T15:01:10 EDT" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tony@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:10 EDT" name="quit" finished-at="2023-07-09T15:01:10 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:10 EDT" name="setUp" finished-at="2023-07-09T15:01:14 EDT" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginUsingValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:14 EDT" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-09T15:01:16 EDT" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manpreetkaur1991@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manpreetkaur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:16 EDT" name="quit" finished-at="2023-07-09T15:01:16 EDT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:16 EDT" name="setUp" finished-at="2023-07-09T15:01:21 EDT" duration-ms="4480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginUsingValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:21 EDT" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-09T15:01:22 EDT" duration-ms="1599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ryan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChangePass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:22 EDT" name="quit" finished-at="2023-07-09T15:01:22 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:22 EDT" name="setUp" finished-at="2023-07-09T15:01:27 EDT" duration-ms="4596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginUsingValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:27 EDT" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-09T15:01:29 EDT" duration-ms="1593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jainrajat1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RAJATjain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:29 EDT" name="quit" finished-at="2023-07-09T15:01:29 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:29 EDT" name="setUp" finished-at="2023-07-09T15:01:33 EDT" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWishListIsUpdated()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:33 EDT" name="validateWishListIsUpdated" finished-at="2023-07-09T15:01:36 EDT" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWishListIsUpdated -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@593aaf41]" started-at="2023-07-09T15:01:36 EDT" name="quit" finished-at="2023-07-09T15:01:37 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.naveenautomationlabs.AFramework.tests.YourStoreTest -->
+      <class name="com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest@3c7f66c4]" started-at="2023-07-09T15:01:51 EDT" name="setUpLogger" finished-at="2023-07-09T15:01:51 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest@3c7f66c4]" started-at="2023-07-09T15:01:51 EDT" name="setUp" finished-at="2023-07-09T15:01:56 EDT" duration-ms="4959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateClickingOnListOfLaptopsNotebookGoTORespectivePage()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest@3c7f66c4]" started-at="2023-07-09T15:01:56 EDT" name="validateClickingOnListOfLaptopsNotebookGoTORespectivePage" finished-at="2023-07-09T15:01:58 EDT" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickingOnListOfLaptopsNotebookGoTORespectivePage -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest@3c7f66c4]" started-at="2023-07-09T15:01:58 EDT" name="quit" finished-at="2023-07-09T15:01:59 EDT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.naveenautomationlabs.AFramework.tests.LaptopsNotebookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

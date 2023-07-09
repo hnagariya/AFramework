@@ -1,0 +1,323 @@
+2023-07-09 14:15:58 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:15:58 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:15:58 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:15:58 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:15:58 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:15:58 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:15:58 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:15:59 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:15:59 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 14:15:59 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 14:15:59 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 14:15:59 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 14:15:59 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 14:15:59 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 14:15:59 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: input[value='Login']]
+2023-07-09 14:16:00 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: input[value='Login']]
+2023-07-09 14:16:00 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:16:00 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: a#wishlist-total span]
+2023-07-09 14:16:01 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (d40b0ec36941e06085be9359d62ae27c)] -> css selector: a#wishlist-total span]
+2023-07-09 14:19:07 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:19:07 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:19:07 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:19:07 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:19:07 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:19:07 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:19:07 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:19:08 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:19:08 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 14:19:08 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 14:19:08 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 14:19:08 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 14:19:08 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 14:19:08 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 14:19:08 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: input[value='Login']]
+2023-07-09 14:19:08 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: input[value='Login']]
+2023-07-09 14:19:08 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:19:09 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: a#wishlist-total span]
+2023-07-09 14:19:09 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (5349f39be5bd5f41bb554fc62f480239)] -> css selector: a#wishlist-total span]
+2023-07-09 14:27:40 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:27:40 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:27:40 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:27:40 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:27:40 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:27:40 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:27:40 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:27:40 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:27:40 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 14:27:41 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 14:27:41 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 14:27:41 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 14:27:41 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 14:27:41 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 14:27:41 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: input[value='Login']]
+2023-07-09 14:27:42 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: input[value='Login']]
+2023-07-09 14:27:42 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:42 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: a#wishlist-total span]
+2023-07-09 14:27:42 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (3a71c0b380be0c0dbc0e4cb06176d0c8)] -> css selector: a#wishlist-total span]
+2023-07-09 14:27:43 INFO  TestBase:87 - finding elementBy.cssSelector: div.table-responsive thead tr td
+2023-07-09 14:27:43 INFO  TestBase:93 - found elementBy.cssSelector: div.table-responsive thead tr td
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textImage
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textProduct Name
+2023-07-09 14:27:43 INFO  TestBase:87 - finding elementBy.cssSelector: div.table-responsive tbody tr
+2023-07-09 14:27:43 INFO  TestBase:93 - found elementBy.cssSelector: div.table-responsive tbody tr
+2023-07-09 14:27:43 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textProduct 3
+2023-07-09 14:27:43 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textproduct 11
+2023-07-09 14:27:43 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textProduct 15
+2023-07-09 14:27:43 INFO  TestBase:171 - Got textApple Cinema 30"
+2023-07-09 14:27:47 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:27:47 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 14:27:47 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:27:47 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 14:27:47 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:27:47 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 14:27:47 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:27:48 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 14:27:48 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 14:27:48 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 14:27:48 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 14:27:48 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 14:27:48 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 14:27:48 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 14:27:48 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: input[value='Login']]
+2023-07-09 14:27:49 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: input[value='Login']]
+2023-07-09 14:27:49 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 14:27:49 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: a#wishlist-total span]
+2023-07-09 14:27:50 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (0bcf499a01a2b6b3153b98c65a48e9fd)] -> css selector: a#wishlist-total span]
+2023-07-09 15:00:43 INFO  TestBase:13 - Test execution started forvalidateClickingDisplayItemOnMainPageTakesToItemPage
+2023-07-09 15:00:43 INFO  TestBase:87 - finding elementBy.cssSelector: div.caption a
+2023-07-09 15:00:43 INFO  TestBase:93 - found elementBy.cssSelector: div.caption a
+2023-07-09 15:00:43 INFO  TestBase:171 - Got textMacBook
+2023-07-09 15:00:43 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:44 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:44 INFO  TestBase:171 - Got textiPhone
+2023-07-09 15:00:44 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:44 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:44 INFO  TestBase:171 - Got textApple Cinema 30"
+2023-07-09 15:00:45 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:45 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:45 INFO  TestBase:171 - Got textCanon EOS 5D
+2023-07-09 15:00:45 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:46 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (60b1a9ebef784468531c475c6a9fa3c5)] -> css selector: div.caption a]
+2023-07-09 15:00:46 INFO  TestBase:17 - TestvalidateClickingDisplayItemOnMainPageTakesToItemPagePassed
+2023-07-09 15:00:51 INFO  TestBase:13 - Test execution started forvalidateDisplayImageIsMovingOnMainPage
+2023-07-09 15:00:51 INFO  TestBase:87 - finding elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:51 INFO  TestBase:93 - found elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:51 INFO  TestBase:87 - finding elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:51 INFO  TestBase:93 - found elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:54 INFO  TestBase:87 - finding elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:54 INFO  TestBase:93 - found elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:54 INFO  TestBase:87 - finding elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:54 INFO  TestBase:93 - found elementBy.cssSelector: div#slideshow0 div div
+2023-07-09 15:00:54 INFO  TestBase:17 - TestvalidateDisplayImageIsMovingOnMainPagePassed
+2023-07-09 15:00:59 INFO  TestBase:13 - Test execution started forvalidateFooterDisplayImagesMoving
+2023-07-09 15:00:59 INFO  TestBase:87 - finding elementBy.cssSelector: div#carousel0>div:nth-of-type(1) >div
+2023-07-09 15:00:59 INFO  TestBase:93 - found elementBy.cssSelector: div#carousel0>div:nth-of-type(1) >div
+2023-07-09 15:01:02 INFO  TestBase:87 - finding elementBy.cssSelector: div#carousel0>div:nth-of-type(1) >div
+2023-07-09 15:01:02 INFO  TestBase:93 - found elementBy.cssSelector: div#carousel0>div:nth-of-type(1) >div
+2023-07-09 15:01:02 INFO  TestBase:17 - TestvalidateFooterDisplayImagesMovingPassed
+2023-07-09 15:01:03 INFO  TestBase:35 - data provider get executed
+2023-07-09 15:01:08 INFO  TestBase:13 - Test execution started forvalidateLoginUsingValidCredentials
+2023-07-09 15:01:08 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:08 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:08 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:08 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:08 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:08 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:08 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:08 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:08 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:08 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:09 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:09 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:09 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:09 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:09 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: input[value='Login']]
+2023-07-09 15:01:10 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (126512cdfd4cd73883c7c528e58204ca)] -> css selector: input[value='Login']]
+2023-07-09 15:01:10 INFO  TestBase:87 - finding elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:10 INFO  TestBase:93 - found elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:10 INFO  TestBase:171 - Got textMy Account
+2023-07-09 15:01:10 INFO  TestBase:17 - TestvalidateLoginUsingValidCredentialsPassed
+2023-07-09 15:01:14 INFO  TestBase:13 - Test execution started forvalidateLoginUsingValidCredentials
+2023-07-09 15:01:14 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:14 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:14 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:14 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:14 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:14 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:14 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:15 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:15 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:15 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:15 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:15 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:15 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:15 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:15 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: input[value='Login']]
+2023-07-09 15:01:16 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (634adeef0a46812902a8c6a13b2adffe)] -> css selector: input[value='Login']]
+2023-07-09 15:01:16 INFO  TestBase:87 - finding elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:16 INFO  TestBase:93 - found elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:16 INFO  TestBase:171 - Got textMy Account
+2023-07-09 15:01:16 INFO  TestBase:17 - TestvalidateLoginUsingValidCredentialsPassed
+2023-07-09 15:01:21 INFO  TestBase:13 - Test execution started forvalidateLoginUsingValidCredentials
+2023-07-09 15:01:21 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:21 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:21 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:21 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:21 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:21 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:21 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:21 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:21 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:21 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:21 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:21 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:21 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:21 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:21 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: input[value='Login']]
+2023-07-09 15:01:22 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (68e23195796a70e629516fbbde8ee7cf)] -> css selector: input[value='Login']]
+2023-07-09 15:01:22 INFO  TestBase:87 - finding elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:22 INFO  TestBase:93 - found elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:22 INFO  TestBase:171 - Got textMy Account
+2023-07-09 15:01:22 INFO  TestBase:17 - TestvalidateLoginUsingValidCredentialsPassed
+2023-07-09 15:01:27 INFO  TestBase:13 - Test execution started forvalidateLoginUsingValidCredentials
+2023-07-09 15:01:27 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:27 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:27 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:27 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:27 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:27 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:27 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:28 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:28 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:28 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:28 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:28 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:28 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:28 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:28 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: input[value='Login']]
+2023-07-09 15:01:29 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (8ab32189e586eb2187e1ad2d65308145)] -> css selector: input[value='Login']]
+2023-07-09 15:01:29 INFO  TestBase:87 - finding elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:29 INFO  TestBase:93 - found elementBy.cssSelector: #content>h2:first-of-type
+2023-07-09 15:01:29 INFO  TestBase:171 - Got textMy Account
+2023-07-09 15:01:29 INFO  TestBase:17 - TestvalidateLoginUsingValidCredentialsPassed
+2023-07-09 15:01:33 INFO  TestBase:13 - Test execution started forvalidateWishListIsUpdated
+2023-07-09 15:01:33 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:33 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:33 INFO  TestBase:171 - Got textWish List (0)
+2023-07-09 15:01:33 INFO  TestBase:87 - finding elementBy.xpath: ( //i[@class='fa fa-heart'])[2]
+2023-07-09 15:01:33 INFO  TestBase:93 - found elementBy.xpath: ( //i[@class='fa fa-heart'])[2]
+2023-07-09 15:01:33 INFO  TestBase:87 - finding elementBy.xpath: ( //i[@class='fa fa-heart'])[2]
+2023-07-09 15:01:33 INFO  TestBase:93 - found elementBy.xpath: ( //i[@class='fa fa-heart'])[2]
+2023-07-09 15:01:33 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (5f39013dffe737e9f58bec962825eed0)] -> xpath: ( //i[@class='fa fa-heart'])[2]]
+2023-07-09 15:01:33 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (5f39013dffe737e9f58bec962825eed0)] -> xpath: ( //i[@class='fa fa-heart'])[2]]
+2023-07-09 15:01:36 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:36 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:36 INFO  TestBase:171 - Got textWish List (1)
+2023-07-09 15:01:36 INFO  TestBase:17 - TestvalidateWishListIsUpdatedPassed
+2023-07-09 15:01:41 INFO  TestBase:13 - Test execution started forvalidateGettingCellElementFromTable
+2023-07-09 15:01:41 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:41 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:41 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:41 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:41 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:41 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:41 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:41 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:41 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:41 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:42 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:42 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:42 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:42 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:42 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: input[value='Login']]
+2023-07-09 15:01:43 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: input[value='Login']]
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:43 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: a#wishlist-total span]
+2023-07-09 15:01:43 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (42090265c95013d7e36b133e3fccb807)] -> css selector: a#wishlist-total span]
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: div.table-responsive thead tr td
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: div.table-responsive thead tr td
+2023-07-09 15:01:43 INFO  TestBase:171 - Got textImage
+2023-07-09 15:01:43 INFO  TestBase:171 - Got textProduct Name
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: div.table-responsive tbody tr
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: div.table-responsive tbody tr
+2023-07-09 15:01:43 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 15:01:43 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 15:01:43 INFO  TestBase:171 - Got textProduct 3
+2023-07-09 15:01:44 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 15:01:44 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 15:01:44 INFO  TestBase:171 - Got textproduct 11
+2023-07-09 15:01:44 INFO  TestBase:87 - finding elementBy.cssSelector: td
+2023-07-09 15:01:44 INFO  TestBase:93 - found elementBy.cssSelector: td
+2023-07-09 15:01:44 INFO  TestBase:171 - Got textProduct 15
+2023-07-09 15:01:44 INFO  TestBase:171 - Got textApple Cinema 30"
+2023-07-09 15:01:44 INFO  TestBase:17 - TestvalidateGettingCellElementFromTablePassed
+2023-07-09 15:01:49 INFO  TestBase:13 - Test execution started forvalidateLogin
+2023-07-09 15:01:49 INFO  TestBase:87 - finding elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:49 INFO  TestBase:93 - found elementBy.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 15:01:49 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:49 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 15:01:49 INFO  TestBase:87 - finding elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:49 INFO  TestBase:93 - found elementBy.cssSelector: ul.dropdown-menu li:nth-of-type(2) a
+2023-07-09 15:01:49 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:49 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: ul.dropdown-menu li:nth-of-type(2) a]
+2023-07-09 15:01:49 INFO  TestBase:87 - finding elementBy.id: input-email
+2023-07-09 15:01:49 INFO  TestBase:93 - found elementBy.id: input-email
+2023-07-09 15:01:49 INFO  TestBase:87 - finding elementBy.id: input-password
+2023-07-09 15:01:49 INFO  TestBase:93 - found elementBy.id: input-password
+2023-07-09 15:01:49 INFO  TestBase:87 - finding elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:49 INFO  TestBase:93 - found elementBy.cssSelector: input[value='Login']
+2023-07-09 15:01:49 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: input[value='Login']]
+2023-07-09 15:01:50 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: input[value='Login']]
+2023-07-09 15:01:50 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:87 - finding elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:93 - found elementBy.cssSelector: a#wishlist-total span
+2023-07-09 15:01:50 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: a#wishlist-total span]
+2023-07-09 15:01:51 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (be8573e774feea9fb23e3cb28d7957c0)] -> css selector: a#wishlist-total span]
+2023-07-09 15:01:51 INFO  TestBase:17 - TestvalidateLoginPassed
+2023-07-09 15:01:56 INFO  TestBase:13 - Test execution started forvalidateClickingOnListOfLaptopsNotebookGoTORespectivePage
+2023-07-09 15:01:56 INFO  TestBase:87 - finding elementBy.cssSelector: ul.nav.navbar-nav>li:nth-of-type(2)
+2023-07-09 15:01:56 INFO  TestBase:93 - found elementBy.cssSelector: ul.nav.navbar-nav>li:nth-of-type(2)
+2023-07-09 15:01:56 INFO  TestBase:87 - finding elementBy.cssSelector: ul.nav.navbar-nav>li:nth-of-type(2) div.dropdown-menu>a
+2023-07-09 15:01:56 INFO  TestBase:93 - found elementBy.cssSelector: ul.nav.navbar-nav>li:nth-of-type(2) div.dropdown-menu>a
+2023-07-09 15:01:57 INFO  TestBase:87 - finding elementBy.cssSelector: div.product-thumb div.caption a
+2023-07-09 15:01:57 INFO  TestBase:93 - found elementBy.cssSelector: div.product-thumb div.caption a
+2023-07-09 15:01:57 INFO  TestBase:171 - Got textHP LP3065
+2023-07-09 15:01:57 INFO  TestBase:171 - Got textMacBook
+2023-07-09 15:01:57 INFO  TestBase:99 - clicking on[[ChromeDriver: chrome on WINDOWS (26366d51aa95500a05687c9560f5e48f)] -> css selector: div.product-thumb div.caption a]
+2023-07-09 15:01:58 INFO  TestBase:105 - Clicked on[[ChromeDriver: chrome on WINDOWS (26366d51aa95500a05687c9560f5e48f)] -> css selector: div.product-thumb div.caption a]
+2023-07-09 15:01:58 INFO  TestBase:17 - TestvalidateClickingOnListOfLaptopsNotebookGoTORespectivePagePassed
