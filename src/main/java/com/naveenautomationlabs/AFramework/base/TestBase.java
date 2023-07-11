@@ -26,7 +26,7 @@ public class TestBase {
 	public static Logger logger;
 	WebDriverEvents events;
 	private EventFiringWebDriver eDriver;
-	private Browsers DEFAULT_BROWSER=Browsers.CHROME;
+	//private Browsers DEFAULT_BROWSER=Browsers.CHROME;
 	private Env DEFAULT_ENV=Env.PROD;
 
 	public TestBase() {
@@ -52,7 +52,8 @@ public class TestBase {
 
 
 	public void initialisation() {
-		switch (DEFAULT_BROWSER.getBrowserName()) {
+		String browser=System.getProperty("Browsers");
+		switch (browser) {
 		case "Chrome":
 			wd=WebDriverManager.chromedriver().create();
 			break;
