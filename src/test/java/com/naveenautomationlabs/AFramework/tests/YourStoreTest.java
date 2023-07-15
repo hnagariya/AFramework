@@ -56,6 +56,10 @@ public class YourStoreTest extends TestBase{
 	public void validateFooterDisplayImagesMoving() {
 		Assert.assertFalse(yourStore.checkFooterDisplayImagesMoving(), "Footer Display images are not moving");
 	}
+	@Test
+	public void validateFailedTest() {
+		Assert.assertEquals(true,false);
+	}
 
 	@Test
 	public void validateDisplayImageIsMovingOnMainPage() {
