@@ -1,183 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+<testng-results ignored="5" total="7" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-15T19:26:53Z" name="Surefire suite" finished-at="2023-07-15T19:28:00Z" duration-ms="66862">
+  <suite started-at="2023-07-16T00:47:44Z" name="Failed suite [Suite]" finished-at="2023-07-16T00:47:53Z" duration-ms="9134">
     <groups>
     </groups>
-    <test started-at="2023-07-15T19:26:53Z" name="Surefire test" finished-at="2023-07-15T19:28:00Z" duration-ms="66862">
-      <class name="com.naveenautomationlabs.AFramework.tests.MyWishListTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@175c2241]" started-at="2023-07-15T19:26:53Z" name="setUpLogger" finished-at="2023-07-15T19:26:53Z" duration-ms="52" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@175c2241]" started-at="2023-07-15T19:26:53Z" name="setUp" finished-at="2023-07-15T19:26:59Z" duration-ms="5270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateGettingCellElementFromTable()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@175c2241]" started-at="2023-07-15T19:26:59Z" name="validateGettingCellElementFromTable" finished-at="2023-07-15T19:27:01Z" duration-ms="2807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateGettingCellElementFromTable -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@175c2241]" started-at="2023-07-15T19:27:53Z" name="setUp" finished-at="2023-07-15T19:27:57Z" duration-ms="3786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLogin()[pri:1, instance:com.naveenautomationlabs.AFramework.tests.MyWishListTest@175c2241]" started-at="2023-07-15T19:27:57Z" name="validateLogin" finished-at="2023-07-15T19:28:00Z" duration-ms="3513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-      </class> <!-- com.naveenautomationlabs.AFramework.tests.MyWishListTest -->
+    <test started-at="2023-07-16T00:47:44Z" name="Test(failed)" finished-at="2023-07-16T00:47:53Z" duration-ms="9134">
       <class name="com.naveenautomationlabs.AFramework.tests.YourStoreTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:01Z" name="setUpLogger" finished-at="2023-07-15T19:27:01Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:44Z" name="setUpLogger" finished-at="2023-07-16T00:47:44Z" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:01Z" name="setUp" finished-at="2023-07-15T19:27:05Z" duration-ms="3870" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:44Z" name="setUp" finished-at="2023-07-16T00:47:48Z" duration-ms="4267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateClickingDisplayItemOnMainPageTakesToItemPage()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:05Z" name="validateClickingDisplayItemOnMainPageTakesToItemPage" finished-at="2023-07-15T19:27:08Z" duration-ms="3077" status="PASS">
+        <test-method signature="validateFailedTest()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:48Z" name="validateFailedTest" finished-at="2023-07-16T00:47:48Z" duration-ms="6" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.naveenautomationlabs.AFramework.tests.YourStoreTest.validateFailedTest(YourStoreTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateClickingDisplayItemOnMainPageTakesToItemPage -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:08Z" name="quit" finished-at="2023-07-15T19:27:09Z" duration-ms="209" status="PASS">
+        </test-method> <!-- validateFailedTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:48Z" name="quit" finished-at="2023-07-16T00:47:49Z" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:09Z" name="setUp" finished-at="2023-07-15T19:27:12Z" duration-ms="3778" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:49Z" name="setUp" finished-at="2023-07-16T00:47:52Z" duration-ms="3868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateDisplayImageIsMovingOnMainPage()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:12Z" name="validateDisplayImageIsMovingOnMainPage" finished-at="2023-07-15T19:27:15Z" duration-ms="3080" status="PASS">
+        <test-method signature="validateFailedTest()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:52Z" name="validateFailedTest" finished-at="2023-07-16T00:47:52Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.naveenautomationlabs.AFramework.tests.YourStoreTest.validateFailedTest(YourStoreTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateDisplayImageIsMovingOnMainPage -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:15Z" name="quit" finished-at="2023-07-15T19:27:16Z" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:16Z" name="setUp" finished-at="2023-07-15T19:27:20Z" duration-ms="3976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateFooterDisplayImagesMoving()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:20Z" name="validateFooterDisplayImagesMoving" finished-at="2023-07-15T19:27:23Z" duration-ms="3270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateFooterDisplayImagesMoving -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:23Z" name="quit" finished-at="2023-07-15T19:27:23Z" duration-ms="127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:24Z" name="setUp" finished-at="2023-07-15T19:27:28Z" duration-ms="4283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:28Z" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-15T19:27:30Z" duration-ms="1742" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tony@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:30Z" name="quit" finished-at="2023-07-15T19:27:30Z" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:30Z" name="setUp" finished-at="2023-07-15T19:27:34Z" duration-ms="3841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:34Z" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-15T19:27:35Z" duration-ms="1303" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[manpreetkaur1991@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manpreetkaur]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:35Z" name="quit" finished-at="2023-07-15T19:27:35Z" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:35Z" name="setUp" finished-at="2023-07-15T19:27:39Z" duration-ms="3837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:39Z" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-15T19:27:40Z" duration-ms="1271" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ryan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ChangePass1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:40Z" name="quit" finished-at="2023-07-15T19:27:40Z" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:40Z" name="setUp" finished-at="2023-07-15T19:27:44Z" duration-ms="3856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:44Z" name="validateLoginUsingValidCredentials" data-provider="loginDataProvider" finished-at="2023-07-15T19:27:45Z" duration-ms="1365" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jainrajat1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RAJATjain]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:45Z" name="quit" finished-at="2023-07-15T19:27:46Z" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:46Z" name="setUp" finished-at="2023-07-15T19:27:50Z" duration-ms="3969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateWishListIsUpdated()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:50Z" name="validateWishListIsUpdated" finished-at="2023-07-15T19:27:53Z" duration-ms="3108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateWishListIsUpdated -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@5bf0d49]" started-at="2023-07-15T19:27:53Z" name="quit" finished-at="2023-07-15T19:27:53Z" duration-ms="138" status="PASS">
+        </test-method> <!-- validateFailedTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AFramework.tests.YourStoreTest@4b7dc788]" started-at="2023-07-16T00:47:53Z" name="quit" finished-at="2023-07-16T00:47:53Z" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.AFramework.tests.YourStoreTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>
