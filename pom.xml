@@ -85,6 +85,14 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
+					<configuration>
+						<!-- Sets the VM argument line used for unit tests
+						arerun. -->
+						<suiteXmlFiles>
+							<suiteXmlFile>${XmlFile}</suiteXmlFile>
+
+						</suiteXmlFiles>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
