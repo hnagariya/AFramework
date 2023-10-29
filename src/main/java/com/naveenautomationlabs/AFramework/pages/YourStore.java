@@ -2,67 +2,52 @@ package com.naveenautomationlabs.AFramework.pages;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import com.naveenautomationlabs.AFramework.base.TestBase;
+import com.naveenautomationlabs.AFramework.ProxyDriver.ProxyDriver;
 import com.naveenautomationlabs.AFramework.utils.Utils;
 
 
-public class YourStore extends TestBase{
-	public YourStore() {
-		PageFactory.initElements(wd, this);
+public class YourStore extends Page{
+	public String PAGE_URL = "/opencart/index.php?route=common/home";
+
+	public YourStore(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(css = "ul.list-inline>li:nth-of-type(2) a")
-	private WebElement myAccountBtn;
+	private static By myAccountBtn=By.cssSelector("ul.list-inline>li:nth-of-type(2) a");
+	private static By loginBtn=By.cssSelector("ul.dropdown-menu li:nth-of-type(2) a");
+	private static By laptopNotebookLink=By.cssSelector("ul.nav.navbar-nav>li:nth-of-type(2)");
+	private static By showAllLaptopsNotebookLink=By.cssSelector("ul.nav.navbar-nav>li:nth-of-type(2) div.dropdown-menu>a");
+	private List<WebElement> listOfDisplayItemOnMainPage=((ProxyDriver)wd).findElements(By.cssSelector("div.caption a"));
+	private List<WebElement> displayMovingOnFooter=((ProxyDriver)wd).findElements(By.cssSelector("div#carousel0>div:nth-of-type(1) >div"));
 
-	@FindBy(css = "ul.dropdown-menu li:nth-of-type(2) a")
-	private WebElement loginBtn;
-
-	@FindBy(css = "ul.nav.navbar-nav>li:nth-of-type(2)")
-	private WebElement laptopNotebookLink;
-
-	@FindBy(css = "ul.nav.navbar-nav>li:nth-of-type(2) div.dropdown-menu>a")
-	private WebElement showAllLaptopsNotebookLink;
-
-	@FindBy(css = "div.caption a")
-	private List<WebElement> listOfDisplayItemOnMainPage;
-
-	@FindBy(css = "div#carousel0>div:nth-of-type(1) >div")
-	private List<WebElement> displayMovingOnFooter;
-
-	@FindBy(css = "div#slideshow0 div div")
-	private WebElement displayMacBookOnMain;
-
-	@FindBy(css = "a#wishlist-total span")
-	private WebElement wishListBtn;
-
-	@FindBy(xpath = "( //i[@class='fa fa-heart'])[2]")
-	private WebElement wishBtn;
+	private static By displayMacBookOnMain=By.cssSelector("div#slideshow0 div div");
+	private static By wishListBtn=By.cssSelector("a#wishlist-total span");
+	private static By wishBtn=By.xpath("( //i[@class='fa fa-heart'])[2]");
 
 	public YourStore clickMyAccountBtn() {
-		myAccountBtn.click();
-		return new YourStore();
+		((ProxyDriver) wd).click(myAccountBtn);
+		return new YourStore(wd,true);
 	}
 
 	public AccountLogin clickLoginBtn() {
-		loginBtn.click();
-		return new AccountLogin();
+		((ProxyDriver) wd).click(loginBtn);
+		return new AccountLogin(wd,true);
 	}
 
 	public LaptopsNotebook mouseHoverLaptopsNotebookLink() {
 		Actions action = new Actions(wd);
-		action.moveToElement(laptopNotebookLink).perform();
-		action.moveToElement(showAllLaptopsNotebookLink).perform();
+		action.moveToElement(((ProxyDriver) wd).findElement(laptopNotebookLink)).perform();
+		action.moveToElement(((ProxyDriver) wd).findElement(showAllLaptopsNotebookLink)).perform();
 		action.click().perform();
-		return new LaptopsNotebook();
+		return new LaptopsNotebook(wd,true);
 	}
 
 	public boolean ClickOnDisplayItemOnMainPage() {
-		List<Boolean> listOfClick = new ArrayList();
+		List<Boolean> listOfClick = new ArrayList<Boolean>();
 		boolean isClickTakeToRtPage = true;
 		for (WebElement element : listOfDisplayItemOnMainPage) {
 			String itemName = element.getText();
@@ -72,10 +57,9 @@ public class YourStore extends TestBase{
 			if (itemName.equals("Canon EOS 5D")) {
 				itemName = "sdf";
 			}
-			wait.until(ExpectedConditions.elementToBeClickable(element));
-			element.click();
+			((ProxyDriver) wd).click(element);
 			listOfClick.add(wd.getTitle().equals(itemName));
-			wd.navigate().back();
+			((ProxyDriver) wd).navigate().back();
 		}
 		for (boolean b : listOfClick) {
 			if (!b) {
@@ -86,8 +70,8 @@ public class YourStore extends TestBase{
 	}
 
 	public boolean checkFooterDisplayImagesMoving() {
-		ArrayList<String> list1 = new ArrayList();
-		ArrayList<String> list2 = new ArrayList();
+		ArrayList<String> list1 = new ArrayList<String>();
+		ArrayList<String> list2 = new ArrayList<String>();
 		for (WebElement element : displayMovingOnFooter) {
 			list1.add(element.getAttribute("class"));
 		}
@@ -101,11 +85,11 @@ public class YourStore extends TestBase{
 
 	public boolean checkDisplayImagesMoving() {
 
-		int point1x = displayMacBookOnMain.getLocation().getX();
-		int point1y = displayMacBookOnMain.getLocation().getY();
+		int point1x = ((ProxyDriver) wd).findElement(displayMacBookOnMain).getLocation().getX();
+		int point1y = ((ProxyDriver) wd).findElement(displayMacBookOnMain).getLocation().getY();
 		Utils.sleep();
-		int point2x = displayMacBookOnMain.getLocation().getX();
-		int point2y = displayMacBookOnMain.getLocation().getY();
+		int point2x = ((ProxyDriver) wd).findElement(displayMacBookOnMain).getLocation().getX();
+		int point2y = ((ProxyDriver) wd).findElement(displayMacBookOnMain).getLocation().getY();
 		if ((point1x == point2x) && (point1y == point2y)) {
 			return true;
 		} else {
@@ -114,16 +98,32 @@ public class YourStore extends TestBase{
 	}
 
 	public boolean checkWishListUpdated() {
-		int currentWishList = Utils.returnDigitsFromString(wishListBtn.getText());
-		wait.until(ExpectedConditions.visibilityOf(wishBtn));
-		wishBtn.click();
+		int currentWishList = Utils.returnDigitsFromString(((ProxyDriver) wd).findElement(wishListBtn).getText());
+		//wait.until(ExpectedConditions.visibilityOf(wishBtn));
+		((ProxyDriver) wd).click(wishBtn);
 		boolean isWishListUpdated = false;
 		Utils.sleep();
-		int updatedWishList = Utils.returnDigitsFromString(wishListBtn.getText());
+		int updatedWishList = Utils.returnDigitsFromString(((ProxyDriver) wd).findElement(wishListBtn).getText());
 		if (updatedWishList>currentWishList) {
 			isWishListUpdated = true;
 		}
 		return isWishListUpdated;
+	}
+	@Override
+	protected void isLoaded() {
+		if (!urlContains(wd.getCurrentUrl())) {
+			throw new Error();
+		}
+	}
+
+	@Override
+	protected String getPageUrl() {
+		return getDomain() + PAGE_URL;
+	}
+
+	@Override
+	public YourStore get() {
+		return (YourStore) super.get();
 	}
 
 }

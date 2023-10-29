@@ -9,12 +9,13 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
+//import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
-import com.naveenautomationlabs.AFramework.listeners.WebDriverEvents;
+//import com.naveenautomationlabs.AFramework.listeners.WebDriverEvents;
 import com.naveenautomationlabs.AFramework.utils.Browsers;
 import com.naveenautomationlabs.AFramework.utils.Env;
+import com.naveenautomationlabs.AFramework.ProxyDriver.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -24,8 +25,8 @@ public class TestBase {
 	private FileInputStream fileInputStream;
 	private Properties prop;
 	public static Logger logger;
-	WebDriverEvents events;
-	private EventFiringWebDriver eDriver;
+	//private WebDriverEvents events;
+	//private EventFiringWebDriver eDriver;
 	private Browsers DEFAULT_BROWSER=Browsers.CHROME;
 	private Env DEFAULT_ENV=Env.PROD;
 
@@ -52,24 +53,25 @@ public class TestBase {
 
 
 	public void initialisation() {
-		String browser=System.getProperty("Browsers","Chrome");
-		switch (browser) {
+		//String browser=System.getProperty("Browsers","Chrome");
+	//	switch (browser) {
+		switch (DEFAULT_BROWSER.getBrowserName()) {
 		case "Chrome":
-			wd=WebDriverManager.chromedriver().create();
+			wd = new ProxyDriver(WebDriverManager.chromedriver().create());
 			break;
 		case "Edge":
-			wd=WebDriverManager.edgedriver().create();
+			wd = new ProxyDriver(WebDriverManager.edgedriver().create());
 			break;
 		case "FireFox":
-			wd=WebDriverManager.firefoxdriver().create();
+			wd = new ProxyDriver(WebDriverManager.firefoxdriver().create());
 			break;
 		default:
 			System.out.println("Not a valid driver name");
 		}
-		eDriver = new EventFiringWebDriver(wd);
-		events = new WebDriverEvents();
-		eDriver.register(events);
-		wd = eDriver;
+		/*
+		 * eDriver = new EventFiringWebDriver(wd); events = new WebDriverEvents();
+		 * eDriver.register(events); wd = eDriver;
+		 */
 		
 		wd.get(DEFAULT_ENV.getUrl() );
 		wd.manage().window().maximize();

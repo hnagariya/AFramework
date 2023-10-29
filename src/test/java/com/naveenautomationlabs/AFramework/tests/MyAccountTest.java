@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.AFramework.tests;
 
-public class MyAccountTest {
+import com.naveenautomationlabs.AFramework.base.TestBase;
+
+public class MyAccountTest extends TestBase {
 
 }

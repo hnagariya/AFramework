@@ -3,10 +3,16 @@ package com.naveenautomationlabs.AFramework.pages;
 import java.util.List;
 import java.util.NoSuchElementException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import com.naveenautomationlabs.AFramework.base.TestBase;
 
-public class MyWishList extends TestBase{
+public class MyWishList extends Page{
+	public String PAGE_URL = "/opencart/index.php?route=account/wishlist";
+	
+	public MyWishList(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
+	}
+
 	public WebElement getCellElementFromTable(MyWishListTable column, String ModelName) {
 		int indexOfColumn = returnIndexOfColumn(column);
 		if (indexOfColumn < 0) {
@@ -47,6 +53,22 @@ public class MyWishList extends TestBase{
 			this.value = value;
 		}
 
+	}
+	@Override
+	protected void isLoaded() {
+		if (!urlContains(wd.getCurrentUrl())) {
+			throw new Error();
+		}
+	}
+
+	@Override
+	protected String getPageUrl() {
+		return getDomain() + PAGE_URL;
+	}
+
+	@Override
+	public MyWishList get() {
+		return (MyWishList) super.get();
 	}
 
 }

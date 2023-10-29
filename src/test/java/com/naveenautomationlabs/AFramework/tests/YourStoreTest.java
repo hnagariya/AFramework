@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import com.naveenautomationlabs.AFramework.base.TestBase;
 import com.naveenautomationlabs.AFramework.pages.AccountLogin;
@@ -11,7 +12,7 @@ import com.naveenautomationlabs.AFramework.pages.MyAccount;
 import com.naveenautomationlabs.AFramework.pages.YourStore;
 import com.naveenautomationlabs.AFramework.utils.ExcelUtils;
 
-public class YourStoreTest extends TestBase{
+public class YourStoreTest extends TestBase {
 	private YourStore yourStore;
 	private AccountLogin accountLogin;
 	private MyAccount myAccount;
@@ -19,18 +20,18 @@ public class YourStoreTest extends TestBase{
 	@BeforeMethod
 	public void setUp() {
 		initialisation();
-		yourStore = new YourStore();
+		yourStore = new YourStore(wd, true).get();
 	}
 
-	@Test(dataProvider="loginDataProvider")
-	public void validateLoginUsingValidCredentials(String userName,String password) {
+	@Test(dataProvider = "loginDataProvider")
+	public void validateLoginUsingValidCredentials(String userName, String password) {
 		yourStore.clickMyAccountBtn();
 		accountLogin = yourStore.clickLoginBtn();
-		myAccount = accountLogin.loginToPortal(userName,password);
+		myAccount = accountLogin.loginToPortal(userName, password);
 		Assert.assertEquals(myAccount.getMyAccountText(), "My Account");
 	}
 
-	@DataProvider(name="loginDataProvider")
+	@DataProvider(name = "loginDataProvider")
 	public String[][] getDataFromExcelFile() throws Exception {
 		logger.info("data provider get executed");
 		String file = "C:\\Users\\Neelam Nagariya\\Desktop\\Testing\\Data.xlsx";
@@ -39,13 +40,11 @@ public class YourStoreTest extends TestBase{
 		String[][] virtualSheet = new String[rowCount][columnCount];
 		for (int i = 1; i <= rowCount; i++) {
 			for (int j = 0; j < columnCount; j++) {
-				virtualSheet[i - 1][j] = ExcelUtils.getCellData(file, "sheet1",i,j);
+				virtualSheet[i - 1][j] = ExcelUtils.getCellData(file, "sheet1", i, j);
 			}
 		}
 		return virtualSheet;
 	}
-
-	
 
 	@Test
 	public void validateClickingDisplayItemOnMainPageTakesToItemPage() {
@@ -56,9 +55,11 @@ public class YourStoreTest extends TestBase{
 	public void validateFooterDisplayImagesMoving() {
 		Assert.assertFalse(yourStore.checkFooterDisplayImagesMoving(), "Footer Display images are not moving");
 	}
+
 	@Test
+	@Ignore
 	public void validateFailedTest() {
-		Assert.assertEquals(true,false);
+		Assert.assertEquals(true, false);
 	}
 
 	@Test
@@ -75,6 +76,4 @@ public class YourStoreTest extends TestBase{
 	public void quit() {
 		tearDown();
 	}
-
-
 }

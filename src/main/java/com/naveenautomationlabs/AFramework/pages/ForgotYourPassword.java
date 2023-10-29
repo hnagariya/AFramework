@@ -1,31 +1,38 @@
 package com.naveenautomationlabs.AFramework.pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import com.naveenautomationlabs.AFramework.base.TestBase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
+import com.naveenautomationlabs.AFramework.ProxyDriver.ProxyDriver;
 
-public class ForgotYourPassword extends TestBase {
-	public ForgotYourPassword() {
-		PageFactory.initElements(wd, this);
+public class ForgotYourPassword extends Page {
+	public String PAGE_URL = "/opencart/index.php?route=account/forgotten";
+
+	public ForgotYourPassword(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(id = "input-email")
-	private WebElement emailInputField;
-
-	@FindBy(css = "input[value='Continue']")
-	private WebElement continueBtn;
+	private static By emailInputField= By.id("input-email");
+	private static By continueBtn=By.cssSelector("input[value='Continue']");
 
 	public void enterEmail() {
-		emailInputField.sendKeys("tony@gmail.com");
+		((ProxyDriver) wd).sendKeys(emailInputField,"tony@gmail.com");
 	}
 
 	public AccountLogin clickContinueBtn() {
-		continueBtn.click();
-		return new AccountLogin();
+		((ProxyDriver) wd).click(continueBtn);
+		return new AccountLogin(wd, true);
 	}
 
+	@Override
+	protected String getPageUrl() {
+		return getDomain() + PAGE_URL;
+	}
 
-
+	@Override
+	protected void isLoaded() {
+		if (!urlContains(wd.getCurrentUrl())) {
+			throw new Error();
+		}
+	}
 }

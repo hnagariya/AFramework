@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.AFramework.tests;
 
-public class ForgotYourPasswordTest {
+import com.naveenautomationlabs.AFramework.base.TestBase;
+
+public class ForgotYourPasswordTest extends TestBase {
 
 }

@@ -1,57 +1,65 @@
 package com.naveenautomationlabs.AFramework.pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import com.naveenautomationlabs.AFramework.base.TestBase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import com.naveenautomationlabs.AFramework.ProxyDriver.ProxyDriver;
 
-public class AccountLogin extends TestBase {
-	public AccountLogin() {
-		PageFactory.initElements(wd, this);
+public class AccountLogin extends Page {
+	public String PAGE_URL = "/opencart/index.php?route=account/login";
+
+	public AccountLogin(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(id = "input-email")
-	private WebElement emailInputField;
-
-	@FindBy(id = "input-password")
-	private WebElement passwordInputField;
-
-	@FindBy(css = "input[value='Login']")
-	private WebElement loginBtn;
-
-	@FindBy(css = "div.form-group a")
-	private WebElement forgotPasswordLink;
-
-	@FindBy(css = "div.alert")
-	private WebElement passwordResetLinkText;
+	private static By emailInputField = By.id("input-email");
+	private static By passwordInputField = By.id("input-password");
+	private static By loginBtn = By.cssSelector("input[value='Login']");
+	private static By forgotPasswordLink = By.cssSelector("div.form-group a");
+	private static By passwordResetLinkText = By.cssSelector("div.alert");
 
 	private void enterEmail(String userName) {
-		emailInputField.sendKeys(userName);
+		((ProxyDriver) wd).sendKeys(emailInputField, userName);
 	}
 
 	private void enterPassword(String password) {
-		passwordInputField.sendKeys(password);
+		((ProxyDriver) wd).sendKeys(passwordInputField, password);
 	}
 
 	private MyAccount clickLoginBtn() {
-		loginBtn.click();
-		return new MyAccount();
+		((ProxyDriver) wd).click(loginBtn);
+		return new MyAccount(wd,true);
 	}
 
-	public MyAccount loginToPortal(String userName,String password) {
+	public MyAccount loginToPortal(String userName, String password) {
 		enterEmail(userName);
 		enterPassword(password);
 		return clickLoginBtn();
 	}
 
 	public ForgotYourPassword clickForgotPassword() {
-		forgotPasswordLink.click();
-		return new ForgotYourPassword();
+		((ProxyDriver) wd).click(forgotPasswordLink);
+		return new ForgotYourPassword(wd, true);
 	}
 
 	public String getPasswordResetLinkSuccessMessageText() {
-		return passwordResetLinkText.getText();
+		return ((ProxyDriver) wd).getText(passwordResetLinkText);
 	}
 
+	@Override
+	protected void isLoaded() {
+		if (!urlContains(wd.getCurrentUrl())) {
+			throw new Error();
+		}
+	}
+
+	@Override
+	protected String getPageUrl() {
+		return getDomain() + PAGE_URL;
+	}
+
+	@Override
+	public AccountLogin get() {
+		return (AccountLogin) super.get();
+	}
 
 }
